@@ -1,6 +1,6 @@
-# n8n Learning Repository 🚀
+# n8n One-Click Setup & Workflow Examples
 
-Welcome to your n8n learning journey! This repository contains examples, tutorials, and resources to help you master n8n workflow automation.
+Get n8n running instantly with our automated bash script! This repository provides a complete one-click installation solution plus example workflows to jumpstart your automation journey.
 
 ## 📋 Table of Contents
 
@@ -200,7 +200,6 @@ The `scripts/setup.sh` script provides:
    - Import the example workflow from `workflows/simple-email-notification.json`
 
 4. **Start building workflows!**
-
 
 ## 🆘 Need Help?
 
