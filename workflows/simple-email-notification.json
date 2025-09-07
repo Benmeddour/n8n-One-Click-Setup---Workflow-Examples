@@ -1,0 +1,44 @@
+{
+  "name": "Simple Email Notification",
+  "nodes": [
+    {
+      "parameters": {},
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "id": "fd1d8a8b-1234-4abc-9def-1234567890ab"
+    },
+    {
+      "parameters": {
+        "fromEmail": "your-email@gmail.com",
+        "toEmail": "recipient@example.com",
+        "subject": "Test Email from n8n",
+        "text": "Hello! This is a test email sent from my n8n workflow.\n\nTimestamp: {{ new Date() }}\nWorkflow: Simple Email Notification"
+      },
+      "name": "Send Email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "id": "a1b2c3d4-5678-9012-3456-789012345678"
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Send Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {},
+  "createdAt": "2025-01-01T00:00:00.000Z",
+  "updatedAt": "2025-01-01T00:00:00.000Z",
+  "id": 1
+}

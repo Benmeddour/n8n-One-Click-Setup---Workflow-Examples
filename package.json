@@ -1,0 +1,39 @@
+{
+  "name": "n8n-learning",
+  "version": "1.0.0",
+  "description": "A comprehensive learning repository for n8n workflow automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n start",
+    "dev": "n8n start --tunnel",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f n8n"
+  },
+  "keywords": [
+    "n8n",
+    "workflow",
+    "automation",
+    "no-code",
+    "integration",
+    "api",
+    "webhooks"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/n8n-learning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/n8n-learning/issues"
+  },
+  "homepage": "https://github.com/yourusername/n8n-learning#readme",
+  "devDependencies": {
+    "n8n": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
