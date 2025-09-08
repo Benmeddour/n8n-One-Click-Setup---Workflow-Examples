@@ -183,7 +183,7 @@ The `scripts/setup.sh` script provides:
 1. **Clone this repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Benmeddour/n8n-OneClickSetup-With-WorkflowExamples.git
    cd n8n
    ```
 
